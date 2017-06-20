@@ -6,5 +6,43 @@ Version: 0.0.1
 Tags: bootstrap
 */
 
+/*
+Fonts:
+font-family: 'Oxygen', sans-serif; <-- Light 300, Regular 400, Bold 700
+font-family: 'Josefin Slab', serif; <-- Regular only
 
-h1 {font-size: 40px; color: green;}
+*/
+
+body {
+  font-family: 'Oxygen', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #505050;
+}
+
+h1 {
+  font-size: 40px;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+h2 {
+  text-transform: lowercase;
+  color: #31708f;
+  margin-top:0;
+}
+
+h3 {}
+
+h4 {font-family: 'Josefin Slab', serif;}
+
+
+
+/* HEADER */
+.mobile-nav {
+  font-size: 0;
+}
+
+.mobile-nav .fa-bars:before {
+  font-size: 20px;
+}
