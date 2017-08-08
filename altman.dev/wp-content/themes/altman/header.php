@@ -15,16 +15,17 @@
     <?php wp_head(); ?>
   </head>
   <body>
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-12 col-xs-10">
-          <h1><?php echo get_bloginfo( 'name' ); ?></h1>
-          <h2><?php echo get_bloginfo( 'description' ); ?></h2>
-        </div>
-        <div class="col-xs-2 visible-xs mobile-nav">
-          <div class="fa fa-bars">mobile nav</div>
+    <div class="header">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-12 col-xs-10">
+            <h1><?php echo get_bloginfo( 'name' ); ?></h1>
+            <h2><?php echo get_bloginfo( 'description' ); ?></h2>
+          </div>
+          <div class="col-xs-2 visible-xs mobile-nav">
+            <div class="fa fa-bars">mobile nav</div>
+          </div>
         </div>
       </div>
     </div>
-
-    <div class="container"> <!--  Begins the container -->
+    <div class="container"> <!--  Begins the main body container -->

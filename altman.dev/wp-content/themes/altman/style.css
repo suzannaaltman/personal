@@ -39,10 +39,25 @@ h4 {font-family: 'Josefin Slab', serif;}
 
 
 /* HEADER */
+.header {
+  padding: 60px 20px 0;
+}
 .mobile-nav {
   font-size: 0;
 }
 
 .mobile-nav .fa-bars:before {
   font-size: 20px;
+}
+
+/* FOOTER */
+.footer {
+  color: #f2f2f2;
+  font-weight: 600;
+  height: 100px;
+  width: 100%;
+  background: #000;
+  padding: 20px;
+  position: fixed;
+  bottom: 0;
 }

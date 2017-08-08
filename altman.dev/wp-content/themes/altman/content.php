@@ -1,1 +1,1 @@
-<div>This is the content of the content.php</div>
+<div class="content">This is the content of the content.php</div>
